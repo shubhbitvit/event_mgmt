@@ -15,5 +15,10 @@
   <%= @event.cost %>
 </P>
 
+<P>
+  <strong>Members:</strong>
+  <%= @event.members %>
+</P>
+
 <%= link_to 'Edit', edit_event_path(@event) %> |
 <%= link_to 'Back', events_path %>
