@@ -7,13 +7,18 @@
 
 <p>
   <strong>Type:</strong>
-  <%= @event.type %>
+  <%= @event.event_type %>
 </p>
 
-<p>
+<P>
   <strong>Cost:</strong>
   <%= @event.cost %>
-</p>
+</P>
+
+<P>
+  <strong>Members:</strong>
+  <%= @event.members %>
+</P>
 
 <%= link_to 'Edit', edit_event_path(@event) %> |
 <%= link_to 'Back', events_path %>
